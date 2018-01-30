@@ -1,0 +1,57 @@
+{
+  "name": "apc-test-adonis",
+  "version": "1.0.0",
+  "description": "APC Test stack bundled into one package",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && nyc --all npm run ace test",
+    "lint": "eslint test/**/*.js start/**/*.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls && nyc report --reporter=text-lcov | codeclimate-test-reporter",
+    "ace": "node ace"
+  },
+  "dependencies": {
+    "adonis-vow-mocha": "2.3.0",
+    "chai": "4.1.2",
+    "mocha": "5.0.0",
+    "nock": "9.1.6",
+    "nyc": "11.4.1",
+    "sinon": "4.2.2",
+    "sinon-chai": "2.14.0",
+    "supertest": "3.0.0",
+    "find-free-port": "1.1.1",
+    "mocha-jenkins-reporter": "0.3.10",
+    "mock-require": "3.0.1"
+  },
+  "devDependencies": {
+    "@adonisjs/ace": "^4.0.8",
+    "@adonisjs/cli": "^3.0.17",
+    "@adonisjs/fold": "^4.0.5",
+    "@adonisjs/framework": "^4.0.31",
+    "@adonisjs/ignitor": "^1.0.14",
+    "apc-style": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APCOvernight/apc-test-adonis.git"
+  },
+  "autoload": {
+    "App": "./app"
+  },
+  "keywords": [
+    "test",
+    "js",
+    "testing",
+    "mocha",
+    "chai",
+    "stryker",
+    "node",
+    "adonis",
+    "adonisjs"
+  ],
+  "author": "Ian Egner <http://twitter.com/ianegner>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/APCOvernight/apc-test-adonis/issues"
+  },
+  "homepage": "https://github.com/APCOvernight/apc-test-adonis#readme"
+}
