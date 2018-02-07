@@ -23,7 +23,7 @@
     "supertest": "3.0.0"
   },
   "devDependencies": {
-    "@adonisjs/ace": "^4.0.8",
+    "@adonisjs/ace": "^5.0.0",
     "@adonisjs/cli": "^4.0.0",
     "@adonisjs/fold": "^4.0.5",
     "@adonisjs/framework": "^5.0.0",
