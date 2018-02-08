@@ -89,7 +89,16 @@
     node-exceptions "^3.0.0"
     upcast "^2.1.1"
 
-"@adonisjs/ignitor@2.0.3", "@adonisjs/ignitor@^2.0.1":
+"@adonisjs/ignitor@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@adonisjs/ignitor/-/ignitor-2.0.4.tgz#a2baa568062589d1846bd5aeae520fc957dccf2a"
+  dependencies:
+    debug "^3.1.0"
+    pify "^3.0.0"
+    youch "^2.0.7"
+    youch-terminal "^1.0.0"
+
+"@adonisjs/ignitor@^2.0.1":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@adonisjs/ignitor/-/ignitor-2.0.3.tgz#7304478787df8382a5e98f94b516a3e267b07038"
   dependencies:
