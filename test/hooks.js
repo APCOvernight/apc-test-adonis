@@ -58,6 +58,7 @@ module.exports = (runner) => {
       Env.set('FUNCTIONAL_TEST_PORT', freePort)
       Env.set('FUNCTIONAL_SERVER_URL', `http://${process.env.HOST}:${process.env.FUNCTIONAL_TEST_PORT}`)
 
+      use('Adonis/Src/Server').bindExceptionHandler(use('Adonis/Exceptions/BaseExceptionHandler'))
       use('Adonis/Src/Server').listen(Env.get('HOST'), Env.get('FUNCTIONAL_TEST_PORT'))
     }
   })
