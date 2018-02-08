@@ -27,7 +27,7 @@
     "@adonisjs/cli": "4.0.2",
     "@adonisjs/fold": "^4.0.5",
     "@adonisjs/ignitor": "2.0.4",
-    "@adonisjs/framework": "5.0.2",
+    "@adonisjs/framework": "5.0.3",
     "apc-style": "1.0.2",
     "codeclimate-test-reporter": "0.5.0",
     "coveralls": "3.0.0"
