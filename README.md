@@ -5,7 +5,7 @@ Combined test dependencies for APC adonis projects
 
 - Test runner: **Adonis-Vow-Mocha**
 - Assertion library: **Chai**
-- Spies, stubs and mocks: **Sinon**, **Mock-Require**, **Nock**
+- Spies, stubs and mocks: **Sinon**, **Mock-Require** (for mocking whole modules), **Nock** (for HTTP request spying/stubbing)
 - Helpers: **Find-Free-Port**
 
 ## About
