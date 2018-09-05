@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@adonisjs/ace": "^5.0.0",
-    "@adonisjs/cli": "4.0.4",
+    "@adonisjs/cli": "4.0.7",
     "@adonisjs/fold": "^4.0.5",
     "@adonisjs/ignitor": "2.0.6",
     "@adonisjs/framework": "5.0.5",
