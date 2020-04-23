@@ -30,7 +30,7 @@
     "@adonisjs/framework": "5.0.5",
     "apc-style": "1.2.0",
     "codeclimate-test-reporter": "0.5.0",
-    "coveralls": "3.0.0"
+    "coveralls": "3.0.14"
   },
   "repository": {
     "type": "git",
